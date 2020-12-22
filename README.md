@@ -41,3 +41,5 @@ Locating convincing data to support the obvious - why manufactured homes are a d
 Its known that unknown challenges will arise. 	As there are still many competing priorities before full devotion to this project can been applied, start early.
 Request for data or api key	Presently unknown
 Known data cleaning steps	Presently unknown
+
+![alley](png/map_TA_DA.jpg)
