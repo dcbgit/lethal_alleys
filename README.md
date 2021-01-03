@@ -37,7 +37,7 @@ States were grouped by Tornado Alley (IA, KS, MO, NE, OK, TX) and Dixie Alley (A
 
 * For comparison, six (6) states  (IA, KS, MO, NE, OK, TX) from “Tornado Alley,” with a high frequency of tornadoes, was used in this analysis.
 
-* To reduce some of the subjectivity involved with determining the more lethal alley, an evaluation criteria was used with weights given to key questions. 
+* To reduce some of the subjectivity involved with determining the more lethal alley, an evaluation criteria was used with weights given to each criteria on a scale of 1-5. 
 
 ![lethal_alleys](png/magandcount.png)
 
@@ -59,3 +59,5 @@ States were grouped by Tornado Alley (IA, KS, MO, NE, OK, TX) and Dixie Alley (A
 ## TABLEAU STORY
 
 Please follow this link to see my analysis and conclusions in Tableau Story format.
+
+https://public.tableau.com/profile/desmond.brooks#!/vizhome/TornadoAlleyvsDixieAlley/LethalAlleys?publish=yes
