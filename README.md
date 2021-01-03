@@ -42,16 +42,16 @@ States were grouped by Tornado Alley (IA, KS, MO, NE, OK, TX) and Dixie Alley (A
 ![lethal_alleys](png/magandcount.png)
 
 ## TOOLS USED
-* Excel
-* Python/Pandas/tabula-py - for converting pdf to csv and data exploration 
-* Tableau - for creating dashboard/presentation
-* ==Atom== - for editing html/markdown files
-* Git - for version control
+* *Excel*
+* *Python/Pandas/tabula-py* - for converting pdf to csv and data exploration 
+* *Tableau* - for creating dashboard/presentation
+* *Studio Visual Code* - for editing html/markdown files
+* *Git* - for version control
 
 
 ## SOURCES
 * NOAA Storm Events Database https://www.ncdc.noaa.gov/stormevents/
-* Weather Related Fatality and Injury Statistics https://www.weather.gov/hazstat/
+* NWS Weather Related Fatality and Injury Statistics https://www.weather.gov/hazstat/
 * US Census Bureau https://www.census.gov/construction/nrc/index.html
 * US Census Bureau https://www.census.gov/data/tables/2010/dec/density-data-text.html
 * US Census Bureau https://www.census.gov/data/tables/time-series/econ/mhs/shipments.html 
