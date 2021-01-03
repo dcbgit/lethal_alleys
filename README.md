@@ -1,12 +1,15 @@
 # Lethal Alleys
 ## Tornado Alley vs Dixie Alley, a comparison of tornadoes from 2000-2018
+
+![alley](png/map_TA_DA.jpg)
+
 ## TABLE OF CONTENTS
-* [INTRODUCTION](#introduction)
-* [THE DATA](#the-data)
-* [METHODOLOGY](#methodology)
-* [TOOLS USED](#tools-used)
-* [SOURCES](#sources)
-* [TABLEAU STORY](#tableau-story)
+* [Introduction](#introduction)
+* [The Data](#the-data)
+* [Approach](#approach)
+* [Tools Used](#tools-used)
+* [Sources](#sources)
+* [Tableau Story](#tableau-story)
 
 ## INTRODUCTION
 
@@ -22,28 +25,37 @@ Data from NOAA's Storm Prediction Center was used to look at the number, locatio
 To find the number of fatalities by year and location of occurrence, 18 .pdf files were pulled from the National Weather Service and converted, in python, to one .csv file.  
 States were grouped by Tornado Alley (IA, KS, MO, NE, OK, TX) and Dixie Alley (AL, AR, GA, LA, MS, TN) and analyzed.
  
-## METHODOLOGY
+## APPROACH
+
+### Issues and Challenges:
+
+* Neither Tornado Alley nor Dixie Alley are officially designated names but rather a nickname bestowed on them as a reference to areas that have a higher number of tornadoes.
+
+* Official boundaries are not defined for Tornado Alley and can include up to 13 or more states.
+
+* Official Boundaries for Dixie Alley are also not defined but when referenced in literature, Dixie Alley consistently includes six (6) states  (AL, AR, GA, LA, MS, TN).
+
+* For comparison, six (6) states  (IA, KS, MO, NE, OK, TX) from “Tornado Alley,” with a high frequency of tornadoes, was used in this analysis.
+
+* To reduce some of the subjectivity involved with determining the more lethal alley, an evaluation criteria was used with weights given to key questions. 
+
+![lethal_alleys](png/magandcount.png)
+
+## TOOLS USED
+* Excel
+* Python/Pandas/tabula-py - for converting pdf to csv and data exploration 
+* Tableau - for creating dashboard/presentation
+* ==Atom== - for editing html/markdown files
+* Git - for version control
 
 
+## SOURCES
+* NOAA Storm Events Database https://www.ncdc.noaa.gov/stormevents/
+* Weather Related Fatality and Injury Statistics https://www.weather.gov/hazstat/
+* US Census Bureau https://www.census.gov/construction/nrc/index.html
+* US Census Bureau https://www.census.gov/data/tables/2010/dec/density-data-text.html
+* US Census Bureau https://www.census.gov/data/tables/time-series/econ/mhs/shipments.html 
 
-Fact based presentation in Tableau that draws conclusions from the analysis and makes recommendations to federal and state legislatures responsible for governing residential construction, city planners and residential building codes committees on possible adjustments to construction codes and standards. The end goal is to provide information that will serve to limit causalities in homes resulting from tornadoes.  The presentation will be delivered in a zoom environment and supported by visualizations to include histograms, line charts, and maps.
+## TABLEAU STORY
 
-Data Sources
--	NOAA Storm Events Database https://www.ncdc.noaa.gov/stormevents/
--	International Code Council https://www.iccsafe.org/
--	Manufactured Housing Institute https://www.manufacturedhousing.org/building-codes-and-standards/
--	US Census Bureau https://www.census.gov/construction/nrc/index.html
--	US Census Bureau https://www.census.gov/data/tables/2010/dec/density-data-text.html
-
-Known Issues and Challenges
-
-Anticipated Challenges	Management Plan
-Lack of confidence in coding skills necessary to draw meaningful conclusions from the data within the given time constraints.
-	Seek assistance from the experts, early and often.
-Locating concrete data to support changes to existing building codes. 	Dig deeper into FEMA datasets as it’s highly plausible that this issue has been raised.
-Locating convincing data to support the obvious - why manufactured homes are a death trap in a tornado.	Keep searching, it’s likely that the answer will come from “web scraping” techniques.
-Its known that unknown challenges will arise. 	As there are still many competing priorities before full devotion to this project can been applied, start early.
-Request for data or api key	Presently unknown
-Known data cleaning steps	Presently unknown
-
-![alley](png/map_TA_DA.jpg)
+Please follow this link to see my analysis and conclusions in Tableau Story format.
