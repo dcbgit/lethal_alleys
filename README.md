@@ -1,26 +1,30 @@
-# lethal_alleys
-# Tornado Alley vs Dixie Alley, a comparison
-Executive Summary
+# Lethal Alleys
+## Tornado Alley vs Dixie Alley, a comparison of tornadoes from 2000-2018
+## TABLE OF CONTENTS
+* [INTRODUCTION](#introduction)
+* [THE DATA](#the-data)
+* [METHODOLOGY](#methodology)
+* [TOOLS USED](#tools-used)
+* [SOURCES](#sources)
+* [TABLEAU STORY](#tableau-story)
+
+## INTRODUCTION
 
 The National Oceanic and Atmospheric Administration (NOAA) reports that the United States experiences an average of 1,000 tornadoes per year.  Most of these tornadoes are found in the Great Plains in an area, unofficially, known as Tornado Alley. The second most vulnerable area for multiple tornadoes to strike is in the southern United States in what is lesser known as Dixie Alley.  
 
-This capstone project will use publicly available data from NOAA to analyze both Tornado Alley and Dixie Alley tornadoes in terms of frequency, magnitude, time of day and most deadly while seeking to understand which “Alley” is more dangerous and why.
+This capstone project will use publicly available data from NOAA to analyze both Tornado Alley and Dixie Alley tornadoes in terms of frequency, magnitude, number of fatalites and the time of day to understand which “Alley” is more dangerous.
 
-I have selected this project because I find this topic and all naturally occurring disasters for that matter, fascinating. I’ve worked as a disaster management program manager and have witnessed the catastrophic impact such events have on people’s lives. This capstone project is an opportunity for me to provide compelling information, powered by data to save lives.
+I selected this project because I find this topic and all naturally occurring disasters for that matter, fascinating. I’ve worked as a disaster management program manager and have witnessed the catastrophic impact such events have on people’s lives. This capstone project is an opportunity for me to provide compelling information, powered by data to save lives.
 
-A cursory internet search shows that Tornado Alley experiences a greater number of tornadoes while Dixie Alley events have more causalities. The objectives of this project are to 1) confirm this statement, 2) provide an in-depth analysis as to why this is true and 3) to make recommendations on steps that can be taken to mitigate tornado risk to individuals and their families.   
+## THE DATA
 
-NOAA datasets will be used to explore weather related data, Census Bureau data will provide population densities in the areas of interest and data from the International Code Council will reveal what residential building codes are presently in place to address tornadoes or high winds.
+Data from NOAA's Storm Prediction Center was used to look at the number, location and magnitude of tornadoes from 2000 - 2018.
+To find the number of fatalities by year and location of occurrence, 18 .pdf files were pulled from the National Weather Service and converted, in python, to one .csv file.  
+States were grouped by Tornado Alley (IA, KS, MO, NE, OK, TX) and Dixie Alley (AL, AR, GA, LA, MS, TN) and analyzed.
+ 
+## METHODOLOGY
 
-Data Question
 
-Which is more deadly, Tornado Alley or Dixie Alley and why?
-
-Gagan, J., Gerard, Gordan, J. (2010). A Historical and Statistical Comparison of “Tornado Alley” to “Dixie Alley.” http://nwafiles.nwas.org/digest/papers/2010/Vol34No2/Pg145-Gagan-etal.pdf
-
-Ashley, S., Strater, S. (2016). Recipe for Disaster: How the Dynamic Ingredients of Risk and Exposure Are Changing the Tornado Disaster Landscape. American Meteorological Society. https://journals.ametsoc.org/bams/article/97/5/767/69885
-
-Minimum Viable Product (MVP)
 
 Fact based presentation in Tableau that draws conclusions from the analysis and makes recommendations to federal and state legislatures responsible for governing residential construction, city planners and residential building codes committees on possible adjustments to construction codes and standards. The end goal is to provide information that will serve to limit causalities in homes resulting from tornadoes.  The presentation will be delivered in a zoom environment and supported by visualizations to include histograms, line charts, and maps.
 
