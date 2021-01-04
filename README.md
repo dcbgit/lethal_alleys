@@ -24,7 +24,7 @@ I selected this project because I find this topic and all naturally occurring di
 Data from NOAA's Storm Prediction Center was used to look at the number, location and magnitude of tornadoes from 2000 - 2018.
 To find the number of fatalities by year and location of occurrence, 18 .pdf files were pulled from the National Weather Service and converted, in python, to one .csv file.  
 States were grouped by Tornado Alley (IA, KS, MO, NE, OK, TX) and Dixie Alley (AL, AR, GA, LA, MS, TN) and analyzed.
- 
+
 ## APPROACH
 
 ### Issues and Challenges:
@@ -37,13 +37,13 @@ States were grouped by Tornado Alley (IA, KS, MO, NE, OK, TX) and Dixie Alley (A
 
 * For comparison, six (6) states  (IA, KS, MO, NE, OK, TX) from “Tornado Alley,” with a high frequency of tornadoes, was used in this analysis.
 
-* To reduce some of the subjectivity involved with determining the more lethal alley, an evaluation criteria was used with weights given to each criteria on a scale of 1-5. 
+* To reduce some of the subjectivity involved with determining the more lethal alley, an evaluation criteria was used with weights given to each criteria on a scale of 1-5.
 
 ![lethal_alleys](png/magandcount.png)
 
 ## TOOLS USED
 * *Excel*
-* *Python/Pandas/tabula-py* - for converting pdf to csv and data exploration 
+* *Python/Pandas/tabula-py* - for converting pdf to csv and data exploration
 * *Tableau* - for creating dashboard/presentation
 * *Studio Visual Code* - for editing html/markdown files
 * *Git* - for version control
@@ -54,10 +54,10 @@ States were grouped by Tornado Alley (IA, KS, MO, NE, OK, TX) and Dixie Alley (A
 * NWS Weather Related Fatality and Injury Statistics https://www.weather.gov/hazstat/
 * US Census Bureau https://www.census.gov/construction/nrc/index.html
 * US Census Bureau https://www.census.gov/data/tables/2010/dec/density-data-text.html
-* US Census Bureau https://www.census.gov/data/tables/time-series/econ/mhs/shipments.html 
+* US Census Bureau https://www.census.gov/data/tables/time-series/econ/mhs/shipments.html
 
 ## TABLEAU STORY
 
 Please follow this link to see my analysis and conclusions in Tableau Story format.
 
-https://public.tableau.com/profile/desmond.brooks#!/vizhome/TornadoAlleyvsDixieAlley/LethalAlleys?publish=yes
+TBD
