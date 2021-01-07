@@ -50,14 +50,17 @@ States were grouped by Tornado Alley (IA, KS, MO, NE, OK, TX) and Dixie Alley (A
 
 
 ## SOURCES
+* FEMA  https://www.fema.gov/sites/default/files/2020-07/2018-ibc-compliation-wind-resistant-provisions.pdf 
 * NOAA Storm Events Database https://www.ncdc.noaa.gov/stormevents/
-* NWS Weather Related Fatality and Injury Statistics https://www.weather.gov/hazstat/
-* US Census Bureau https://www.census.gov/construction/nrc/index.html
-* US Census Bureau https://www.census.gov/data/tables/2010/dec/density-data-text.html
-* US Census Bureau https://www.census.gov/data/tables/time-series/econ/mhs/shipments.html
+* NWS Weather Related Fatality and Injury Statistics https://www.weather.gov/hazstat/ 
+* US Census Bureau https://www.census.gov/construction/nrc/index.html 
+* US Census Bureau https://www.census.gov/programs-surveys/decennial-census/decade.2010.html 
+* US Census Bureau https://www.census.gov/programs-surveys/decennial-census/2020-census.html 
+* US Census Bureau https://www.census.gov/data/tables/time-series/econ/mhs/shipments.html 
+* US Census Bureau https://www2.census.gov/library/publications/1994/demographics/sb94-10.pdf
 
 ## TABLEAU STORY
 
 Please follow this link to see my analysis and conclusions in Tableau Story format.
 
-TBD
+https://public.tableau.com/profile/desmond.brooks#!/?newProfile=&activeTab=0
